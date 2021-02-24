@@ -1,0 +1,265 @@
+<!-- Create a basic one-page HTML website that includes everything laid out in the project requirements. 
+For reference this includes:
+	Home page section (heading tag, <p> tag, etc.)
+	A section with pictures (<img> tags, etc.)
+	Contact form (<form> tag, <input> tag, etc.)
+	Footer (<footer> tag, etc.)
+	A section with a video(s) (<iframe> tag, src attribute, etc.)
+	A <nav> element that utilizes HTML bookmarks to allow the user to jump to various sections on the page. 
+
+Step 1:
+Use CSS to set these properties for the text in your page:
+    Font-family
+    Font-size
+
+STEP 2
+Use CSS to set these properties for the form on your page:
+    Width of the inputs
+    Margin between the inputs
+    Border of the inputs
+    Border radius of the inputs
+    Save the file.
+
+STEP 3
+Open the one_page_website.html file. In the <head> element, link to your external CSS stylesheet (one_page_website.css).
+Save your code and run the one_page_website.html file in the browser to ensure everything displays properly.
+
+STEP 4
+Push your One-Page Website folder to your HTML and CSS GitHub repository.
+This assignment builds on top of the One-Page Website you created from an earlier assignment.
+Minimum project requirements:
+    Successfully link your HTML file to your CSS file, and
+    Using your CSS file, modify the following properties,
+        Font-family
+        Font-size
+        Width of the inputs
+        Margin between the inputs
+        Border of the inputs
+        Border radius of the inputs
+Just as a reminder - if you have the time feel free to customize the content of this assignment before submitting it. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+		<Title>PAWradise | Animal Rescue</Title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
+    </head>
+
+    <body>
+
+        <!-- NAV -->
+        <div class="wrap">
+            <div class="menu-container">
+                <ul class="menu">
+                    <a href="#home" id="link"><li>HOME</li></a>
+                    <a href="#gallery" id="link"><li>GALLERY</li></a>
+                    <a href="#contact" id="link"><li>ADOPTION</li></a>
+                    <a href="#donate" id="link"><li>DONATE</li></a>
+                </ul>
+            </div >
+        </div>
+        <!-- END NAV -->
+
+        <!-- HOME -->
+        <div id="home">
+            <div class="container">
+                <div class="text-center"> 
+                    <span class="head-main">PAWradise Animal Rescue</span>
+                </div>
+            </div>
+        </div>
+        <!-- END HOME -->
+
+        <!-- GALLERY -->
+        <section id="gallery">
+            <div class="container">
+                <h1 id="gallery-h1">Available Pets Gallery</h1>
+                <br>
+                <br>
+                <div class="flex-container">
+
+                    <!-- PHOTO-CONTAINER 1 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_1.jpg" alt="Nemo">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">NEMO</h3>
+                                <p>Havanese Mix<br>Male<br>Age - 2 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 1 -->
+
+                    <!-- PHOTO-CONTAINER 2 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_2.jpg" alt="Dane">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">DANE</h3>
+                                <p>Labrador/Sharpei Mix <br>Male<br>Age - 3 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 2 -->
+
+                    <!-- PHOTO-CONTAINER 3 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_3.jpg" alt="Bashful">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">BASHFUL</h3>
+                                <p>American Pit Bull<br>Female<br> Age - 1 Year</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 3 -->
+
+                    <!-- PHOTO-CONTAINER 4 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_4.jpg" alt="Payton">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">PAYTON</h3>
+                                <p>Blue Heeler Mix<br>Female<br>Age - 3 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 4 -->
+
+                    <!-- PHOTO-CONTAINER 5 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_5.jpg" alt="Daphne">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">DAPHNE</h3>
+                                <p>American Pit Bull/Hound Mix<br>Female<br>Age - 3 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 5 -->
+
+                    <!-- PHOTO-CONTAINER 6 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_6.jpg" alt="Gretzky">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">GRETZKY</h3>
+                                <p>Siberian Husky<br>Male<br>Age - 3 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 6 -->
+
+                    <!-- PHOTO-CONTAINER 7 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_7.jpg" alt="Connie">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">CONNIE</h3>
+                                <p>Australian Cattledog Mix<br>Female<br> Age - 14 Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 7 -->
+
+                    <!-- PHOTO-CONTAINER 8 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_8.jpg" alt="Alakay">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">ALAKAY</h3>
+                                <p>German Shepherd<br>Male<br>Age - 3 Months</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 8 -->
+
+                    <!-- PHOTO-CONTAINER 9 -->
+                    <div class="photo-container">
+                        <div class="photo">
+                            <img src="./images/thumb/thumbnail_9.jpg" alt="Winston">
+                            <div class="photo-overlay">
+                                <h3 class="white-head">WINSTON</h3>
+                                <p>Male - Labrador Mix<br>1 Year</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END PHOTO-CONTAINER 9 -->
+                </div>
+            </div>
+        </section>
+		<!-- END GALLERY -->
+		
+        <!-- VIDEO -->
+        <section id="video">
+            <div class="video-iframe">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dxfxC3dI2J8" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Lopsd53RKnw" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+            </div>
+        </section>
+
+		<!-- END VIDEO -->
+
+        <!-- ADOPTION -->
+        <section id="contact">
+            <div class="container">
+                <div class="heading-padding">
+                    <h1 class="heading-padding">Adoption</h1>
+                    <div class="adoption">
+                        <h2><span>Your new best friend is a click away!
+                            <br/>Adopt today!</span>
+                        </h2>
+                        <h3 class="adoption-text"><span>
+                            Complete the form below to learn more about our adoption process.</span>
+                        </h3>
+                        <div class="form-adoption">
+                            <form action="" method="POST">
+                                <input class="rsvp" type="text" value="" placeholder="First Name">
+                                <input class="rsvp" type="text" value="" placeholder="Last Name">
+                                <input class="rsvp" type="text" value="" placeholder="Email Address">
+                                <input class="rsvp" type="text" value="" placeholder="Phone Number">
+                                <div class="submit">
+                                    <input type="submit" value="Submit">
+                                </div>
+                                <p class="form-spacer">
+                                    <label class="terms">Terms and Conditions</label>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END RSVP -->
+
+        <!-- DONATE -->
+        <section>
+            <div id="donate">
+                <div class="container">
+                    <div class="heading-padding">
+                        <h1 class="heading-padding">Please donate and save lives!</h1>
+                        <div class="donate-text">
+                            <div class="submit">
+                                <input type="submit" value="Donate">
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END DONATE -->
+
+        <!-- FOOTER -->
+        <div id="footer">
+            (555) 555-5555<br>1001 Sanctuary Lane, Vancouver, WA 55555<br>www.pawradiseanimalrescue.com &nbsp;|&nbsp; &copy; 2020
+        </div>
+        <!-- END FOOTER -->
+
+    </body>
+
+</html>
